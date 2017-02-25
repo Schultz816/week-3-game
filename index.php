@@ -1,0 +1,1 @@
+<?php include_once("G:\Homework\week-3-game\index.html"); ?> 

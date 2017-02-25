@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8"/>
+	<title>Hangman, Chicago!</title>
+	
+	
+</head>
+
+<body>
+
+<script type="text/javascript">
+
+var wordList = {
+
+	"wrigley",
+
+	"lake",
+
+	"bean",
+
+	"cubs",
+
+	"park",
+
+	"pier",
+
+	"shedd",
+
+	"art",
+
+	"tower",
+
+	"thecell"
+}
+
+	var chosenWord = "";
+	var letterInChosenWord = [];
+	var numBlanks = 0;
+	var blanksAndSuccesses = [];
+	var wrongGuesses = [];
+
+	var winCounter = 0;
+	var lossCounter = 0;
+	var numGuesses = 9;
+
+	function startGame(){
+
+		numGuesses = 9;
+		blanksAndSuccesses = [];
+		wrongGuesses = [];
+
+		chosenWord = wordList[Math.floor(Math.random() * wordList.length)];
+		console.log(chosenWord);
+
+	}
+
+	function checkLetters(letter){
+
+	}
+
+	function roundComplete(){
+
+	}
+
+	startGame();
+
+	document.onkeyup = function(event){
+
+	}
+
+	</script>
+
+	</body>
+
+	</html>
+
+
