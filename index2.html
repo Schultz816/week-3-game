@@ -12,7 +12,7 @@
 
 <script type="text/javascript">
 
-var wordList = {
+var wordList = [
 
 	"wrigley",
 
@@ -33,7 +33,7 @@ var wordList = {
 	"tower",
 
 	"thecell"
-}
+]
 
 	var chosenWord = "";
 	var letterInChosenWord = [];
@@ -52,7 +52,13 @@ var wordList = {
 		wrongGuesses = [];
 
 		chosenWord = wordList[Math.floor(Math.random() * wordList.length)];
+		numBlanks = letterInChosenWord.length;
 		console.log(chosenWord);
+		consold.log(numBlanks)
+
+		for(var i = 0; i < numBlanks; i++){
+			blanksAndSuccesses.push("_")
+		}
 
 	}
 

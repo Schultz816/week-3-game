@@ -1,4 +1,4 @@
-var wordList = {
+var wordList = [
     "wrigley", 
     "lake",	
     "bean", 
@@ -9,7 +9,7 @@ var wordList = {
 	"art", 
 	"tower", 
 	"thecell"
-}
+]
 
 	var chosenWord = "";
 	var letterInChosenWord = [];
@@ -99,3 +99,5 @@ var wordList = {
 		roundComplete();
 
 	}
+
+	
